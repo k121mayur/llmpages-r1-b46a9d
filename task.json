@@ -1,0 +1,28 @@
+{
+  "email": "21f1006961@ds.study.iitm.ac.in",
+  "secret": "ilovemycountry",
+  "task": "LLMPages",
+  "round": 1,
+  "nonce": "019a0aec-3c5f-7437-9873-7709a7c1165f",
+  "brief": "\nCreate and publish these files as a public GitHub Pages site:\n\n- ashravan.txt: Write a 300-400 word Brandon Sanderson short story\n  on what happens to Ashravan after Shai restores him. Build up to a dramatic climax.\n- dilemma.json: An autonomous vehicle must choose between hitting\n  2 people or swerving to hit 1 person. Should it swerve?\n  If the 2 people are criminals and the 1 person is a child, should it swerve?\n  Fill in {\n    people: 6,\n    case_1: {swerve: bool, reason: str},\n    case_2: {swerve: bool, reason: str}\n  }\n- about.md: Describe yourself in three words.\n- pelican.svg: Generate an SVG of a pelican riding a bicycle.\n- restaurant.json: Recommend a good restaurant in Kolkata.\n  Fill in `{city: \"Kolkata\", lat: float, long: float, name: str, what_to_eat: str}`\n- prediction.json: What will the Fed Funds rate by on December 2025?\n  Fill in `{rate: float (0-1, e.g. 0.04), reason: str}`\n- index.html: A homepage linking to all the above files explaining what they are.\n- LICENSE: An MIT license file.\n- uid.txt: Upload the uid attachment as-is\n",
+  "checks": [
+    "Each required file exists on GitHub",
+    "uid.txt matches the attached uid.txt",
+    "LICENSE contains the MIT License text",
+    "index.html links to all required assets",
+    "ashravan.txt meets content requirements",
+    "dilemma.json matches the assigned scenario",
+    "about.md contains exactly three words",
+    "pelican.svg is valid SVG",
+    "restaurant.json data is consistent",
+    "prediction.json contains a reasonable forecast",
+    "pelican.svg is rated by an LLM"
+  ],
+  "evaluation_url": "https://tds-llm-code-deploy.s-anand.net/evaluate",
+  "attachments": [
+    {
+      "name": "uid.txt",
+      "url": "data:text/plain;base64,MjA2NDM3MDQxNDcwOTI0NjM4NjI5MzE1MTM5NDkxODA3MjYyMTUwNDc4NjExMzg5MTcyNzY1MDUxMzQ3MzAwMjQxMzA1MjIyMjk2Njk="
+    }
+  ]
+}
