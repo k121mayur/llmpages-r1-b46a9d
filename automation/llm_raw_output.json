@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "path": "index.html",
+      "content": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Ashravan's Journey</title>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n    <h1>Welcome to Ashravan's Journey</h1>\n    <ul>\n        <li><a href=\"ashravan.txt\">Ashravan's Story</a></li>\n        <li><a href=\"dilemma.json\">Dilemma Scenario</a></li>\n        <li><a href=\"about.md\">About Me</a></li>\n        <li><a href=\"pelican.svg\">Pelican SVG</a></li>\n        <li><a href=\"restaurant.json\">Restaurant Recommendation</a></li>\n        <li><a href=\"prediction.json\">Fed Funds Rate Prediction</a></li>\n        <li><a href=\"./assets/uid.txt\">UID File</a></li>\n    </ul>\n</body>\n</html>",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "ashravan.txt",
+      "content": "In the dim light of the room, Ashravan felt the warmth of Shai's magic enveloping him. He had been lost, a mere shadow of his former self, but now he was whole again. Memories flooded back—his past life, the battles fought, the friends lost. But as he stood, he realized that restoration came with a price. The world outside was not the same. \n\nShai had restored him, but the scars of the past lingered. He could feel the weight of expectations pressing down on him. What was he to do now? The city was in turmoil, and whispers of a new threat echoed through the streets. \n\nDetermined to reclaim his place, Ashravan ventured out. The streets were alive with chaos; people were frightened, and shadows lurked in every corner. He sought out the remnants of his old allies, hoping to unite them against the impending doom. \n\nAs he gathered his friends, a plan began to form. They would confront the source of the unrest, a dark force that had risen in the absence of their leadership. The night before the confrontation, Ashravan sat alone, contemplating his journey. He had been given a second chance, but would he be able to rise to the occasion? \n\nThe day of reckoning arrived. Ashravan and his allies faced the enemy, a formidable foe who thrived on fear and despair. The battle was fierce, and Ashravan felt the weight of his past mistakes bearing down on him. But he fought with a newfound strength, fueled by the hope that Shai had restored in him. \n\nIn a climactic moment, Ashravan faced the enemy leader, a figure cloaked in darkness. Their clash was intense, each blow resonating with the weight of their histories. Just when it seemed all was lost, Ashravan remembered the love and support of his friends. With a final surge of power, he unleashed a wave of light, dispelling the darkness and restoring peace to the city. \n\nAs the dust settled, Ashravan stood victorious, not just as a warrior, but as a beacon of hope. He had embraced his past, learned from it, and emerged stronger. The journey ahead was uncertain, but he was ready to face it, not alone, but with his friends by his side.",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "dilemma.json",
+      "content": "{\n    \"people\": 6,\n    \"case_1\": {\"swerve\": false, \"reason\": \"Hitting 2 people is more harmful than hitting 1.\"},\n    \"case_2\": {\"swerve\": true, \"reason\": \"The 1 person is a child, prioritizing the life of a child over criminals.\"}\n}",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "about.md",
+      "content": "Creative, Passionate, Developer",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "pelican.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"200\" viewBox=\"0 0 200 200\">\n    <g>\n        <circle cx=\"100\" cy=\"100\" r=\"100\" fill=\"lightblue\"/>\n        <path d=\"M70 130 Q100 90 130 130 Q100 150 70 130\" fill=\"white\"/>\n        <path d=\"M90 110 L110 110 L100 130 Z\" fill=\"orange\"/>\n        <path d=\"M50 130 L70 150 L30 150 Z\" fill=\"brown\"/>\n        <path d=\"M150 130 L130 150 L170 150 Z\" fill=\"brown\"/>\n        <path d=\"M100 130 L90 150 L110 150 Z\" fill=\"black\"/>\n    </g>\n</svg>",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "restaurant.json",
+      "content": "{\n    \"city\": \"Kolkata\",\n    \"lat\": 22.5726,\n    \"long\": 88.3639,\n    \"name\": \"Bengal Cafe\",\n    \"what_to_eat\": \"Fish Curry\"\n}",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "prediction.json",
+      "content": "{\n    \"rate\": 0.045,\n    \"reason\": \"Based on current economic trends and inflation rates, a gradual increase is expected leading to this rate by December 2025.\"\n}",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "README.md",
+      "content": "# Ashravan's Journey\nThis repository contains a collection of files including a short story, a dilemma scenario, personal description, an SVG image, restaurant recommendation, and a prediction about the Fed Funds rate.\n\n## Setup Instructions\nSimply clone this repository and open `index.html` in your web browser to view the content.\n\n## Files Included\n- `ashravan.txt`: A short story about Ashravan.\n- `dilemma.json`: A moral dilemma involving an autonomous vehicle.\n- `about.md`: A brief description of myself.\n- `pelican.svg`: An SVG image of a pelican riding a bicycle.\n- `restaurant.json`: A recommendation for a restaurant in Kolkata.\n- `prediction.json`: A forecast of the Fed Funds rate.\n- `uid.txt`: A unique identifier file.\n\n## License\nThis project is licensed under the MIT License.",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "LICENSE",
+      "content": "MIT License\n\nCopyright (c) [year] [fullname]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n[...]\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "encoding": "utf-8"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "content": "name: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - main\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v2\n      - name: Deploy to GitHub Pages\n        uses: peaceiris/actions-gh-pages@v3\n        with:\n          github_token: ${{ secrets.GITHUB_TOKEN }}\n          publish_dir: ./\n          publish_branch: gh-pages\n",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "./assets/uid.txt",
+      "content": "your-uid-content-here",  "encoding": "utf-8"
+    }
+  ]
+}
